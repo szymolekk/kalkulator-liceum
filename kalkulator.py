@@ -15,9 +15,9 @@ p1 = int(input('Podaj ocenę z pierwszego dodatkowo punktowanego przedmiotu '))
 p2 = int(input('Podaj ocenę z drugiego dodatkowo punktowanego przedmiotu '))
 #Świadectwo
 dec = input('Czy posiadzasz świadectwo z czerwonym paskiem ? ')
-if dec == 'Nie' :
+if dec == 'Nie' or 'nie' :
     sw = 0
-elif dec == 'Tak' :
+elif dec == 'Tak' or 'tak' :
     sw = 7
 else:
     print('Prosiłem cię tylko o tak lub nie')
